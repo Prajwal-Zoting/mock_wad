@@ -1,0 +1,78 @@
+                                                                 WAD MOCK PRACTICAL
+Name - Prajwal Zoting
+Batch - N11
+Roll no. - 33382
+
+
+administrator@blab-21:~$ sudo apt-get install git
+[sudo] password for administrator: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+git is already the newest version (1:2.17.1-1ubuntu0.17).
+The following packages were automatically installed and are no longer required:
+  gyp javascript-common libc-ares2 libhttp-parser2.7.1 libjs-async
+  libjs-inherits libjs-jquery libjs-node-uuid libjs-underscore libssl1.0-dev
+  libuv1 libuv1-dev linux-hwe-5.4-headers-5.4.0-122 node-abbrev node-ansi
+  node-ansi-color-table node-archy node-async node-balanced-match
+  node-block-stream node-brace-expansion node-builtin-modules
+  node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream
+  node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs
+  node-gyp node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile
+  node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream
+  node-node-uuid node-nopt node-normalize-package-data node-npmlog node-once
+  node-osenv node-path-is-absolute node-pseudomap node-qs node-read
+  node-read-package-json node-request node-retry node-rimraf node-semver
+  node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore
+  node-validate-npm-package-license node-which node-wrappy node-yallist
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+administrator@blab-21:~$ git --version
+git version 2.17.1
+administrator@blab-21:~$ mkdir mock_wad
+administrator@blab-21:~$ cd mock_wad
+administrator@blab-21:~/mock_wad$ git init
+Initialized empty Git repository in /home/administrator/mock_wad/.git/
+administrator@blab-21:~/mock_wad$ git config --global user.name"Prajwal-Zoting"
+administrator@blab-21:~/mock_wad$ git config --global user.email"prajwalzoting2002@gmail.com"
+administrator@blab-21:~/mock_wad$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+administrator@blab-21:~/mock_wad$ git  add .
+administrator@blab-21:~/mock_wad$ git commit -m "Hello World"
+[master (root-commit) 4b9b109] Hello World
+ 1 file changed, 1 insertion(+)
+ create mode 100644 prajwal.txt
+administrator@blab-21:~/mock_wad$ git branch -M main
+administrator@blab-21:~/mock_wad$ git remote add origin https://github.com/Prajwal-Zoting/mock_wad.git
+administrator@blab-21:~/mock_wad$ git push -u origin main
+Username for 'https://github.com': Prajwal-Zoting
+Password for 'https://Prajwal-Zoting@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 256 bytes | 256.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Prajwal-Zoting/mock_wad.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+administrator@blab-21:~/mock_wad$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+token - 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
+
